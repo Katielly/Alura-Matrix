@@ -68,7 +68,7 @@ export default function PaginaInicial() {
                             infosDoEvento.preventDefault();
                             console.log('Alguém quer entrar no Chat');
                             // windows.location.href = '/chat';
-                            roteamento.push('/chat');
+                            roteamento.push(`/chat?username=${username}`);
                         }}
                         styleSheet={{
                             display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
